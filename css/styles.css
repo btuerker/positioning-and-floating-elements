@@ -23,6 +23,10 @@ header > img {
     width: 100%;
 }
 
+header > small {
+    max-width: 75%;
+}
+
 header > small[class="image-info"] > span {
     font-size: 10px;
     color: gray;
@@ -36,4 +40,66 @@ header > small[class="image-info"] > span {
 
 .article-title {
     text-align: left;
+}
+
+header + section {
+    width: 60%;
+    padding-top:100px;
+    font-weight:bold;
+    margin: 0 auto;
+    text-align:left;
+}
+
+header + section a {
+    color: black;
+    text-decoration:none;
+}
+
+.article-mini-navbar {
+    width:100%;
+    padding-top: 20px;
+}
+
+.article-date-info {
+    width:50%;
+    float:left;
+    color:gray;
+    font-size:14px;
+    font-weight: lighter;
+}
+
+.article-links{
+    width:50%;
+    float:right;
+    text-align:right;
+    position:relative;
+    padding-left:0px;
+}
+
+.article-links > i {
+    border: 1px solid lightgray;
+    border-radius: 45px;
+    background-color:lightgray;
+    width:25px;
+    height:25px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.article-links > i:last-child {
+    font-size:24px;
+    border: none;
+    background-color: white;
+    border-radius: 0;
+}
+
+.article-links > i:nth-child(5) {
+    font-size:24px;
+    border: none;
+    background-color: white;
+    border-radius: 0;
+}
+
+.footer{
+    padding: 100px;
 }
