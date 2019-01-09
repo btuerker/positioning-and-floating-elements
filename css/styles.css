@@ -1,0 +1,39 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.main-content {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+header > h1 {
+    display: inline-block !important;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 345px;
+    padding-bottom: 20px;
+}
+
+header > img {
+    width: 100%;
+}
+
+header > small[class="image-info"] > span {
+    font-size: 10px;
+    color: gray;
+    text-align: left;
+}
+
+.image-info {
+    float: left;
+    text-align: left;
+}
+
+.article-title {
+    text-align: left;
+}
