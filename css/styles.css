@@ -282,3 +282,70 @@ header + section a {
 .second-topbar-article-title {
     padding-top:10px;
 }
+
+.recommendations {
+    width: 80%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.recomendations-side > hr {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.trends > hr {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.recommendations-side {
+    grid-column: 1;
+    
+}
+.recommendations-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+
+.recommendation > img {
+    width: 100%;
+} 
+.recommendation > small {
+    float: right;
+    text-align: right;
+    font-size: 10px;
+    color: gray;
+}
+
+.recommendation > .title {
+    width: 100%;
+}
+
+
+.trends {
+    grid-column: 2;
+}
+
+.trends > ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.trends > ul > hr {
+    border: 0.5px solid rgb(206, 203, 203);
+}
+.trends > ul > li {
+    padding: 10px 0px;
+}
+
+.trends > ul > li a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
