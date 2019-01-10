@@ -1,10 +1,13 @@
 body {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
 
 }
 .main-content {
     text-align: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 header {
@@ -15,6 +18,9 @@ header > h1 {
     display: inline-block !important;
     margin: 0 auto;
     text-align: center;
+    font-style: italic;
+    width: 50%;
+    padding-right: 30%;
     max-width: 345px;
     padding-bottom: 20px;
 }
@@ -43,7 +49,7 @@ header > small[class="image-info"] > span {
 }
 
 header + section {
-    width: 60%;
+    width: 50%;
     padding-top:100px;
     font-weight:bold;
     margin: 0 auto;
@@ -84,6 +90,11 @@ header + section a {
     height:25px;
     text-align: center;
     line-height: 25px;
+    cursor: pointer;
+}
+
+.article-links > i:hover {
+    border: 1px solid gray;
 }
 
 .article-links > i:last-child {
@@ -92,13 +103,49 @@ header + section a {
     background-color: white;
     border-radius: 0;
 }
+.article-links > i:last-child:hover {
+    color: gray;
+}
 
 .article-links > i:nth-child(5) {
     font-size:24px;
     border: none;
+    border: 1px solid white;
     background-color: white;
     border-radius: 0;
 }
+.article-links > i:nth-child(5):hover {
+    color: gray;
+}
+
+.article {
+    width: 100%;
+    padding-top: 20px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.grid-cards {
+   position: relative;
+}
+
+.paragraph-grids {
+    position: absolute;
+    display: grid;
+    top: 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 100px;
+}
+.paragraph-grids > p {
+    font-size: 12px;
+}
+
+.grid-cards > img {
+    width: 100%;
+}
+
 
 .footer{
     padding: 100px;
