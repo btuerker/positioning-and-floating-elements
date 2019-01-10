@@ -74,6 +74,31 @@ header + section a {
     font-weight: lighter;
 }
 
+.article-subscribe-button {
+    width:50%;
+    float:left;
+    color:gray;
+    font-size:14px;
+    font-weight: lighter;
+}
+
+.article-subscribe-button > button {
+    background-color: #6288A5;
+    color: white;
+    font-size:12px;
+    font-weight: bold;
+    border: 1px solid #6288A5;
+    border-radius:5px;
+    padding: 10px 40px 10px 40px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.article-subscribe-button > button:hover {
+    background-color: rgb(56, 80, 99);
+}
+
+
 .article-links{
     width:50%;
     float:right;
@@ -123,6 +148,7 @@ header + section a {
     padding-top: 20px;
     font-weight: normal;
     font-size: 20px;
+    position:relative;
 }
 
 .grid-cards {
@@ -146,6 +172,43 @@ header + section a {
     width: 100%;
 }
 
+.article > hr {
+    width: 10%;
+    border: 1.2px solid black;
+    float:left;
+    text-align: left;
+}
+
+.article > img {
+    width:120%;
+    position: relative;
+    left: -10%;
+}
+
+.footnote {
+    width: 100%;
+    font-size: 12px;
+    font-weight: normal;
+    float:left;
+    text-align:left;
+}
+
+.article > img + .footnote {
+    position:relative;
+    width:120%;
+    left: -10%;
+    font-size:14px;
+}
+
+.article > img + .footnote > small {
+    color:gray;
+}
+
+.article-footer {
+    color: gray;
+    font-size: 14px;
+    font-weight: lighter;
+}
 
 .footer{
     padding: 100px;
